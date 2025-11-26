@@ -1,3 +1,36 @@
+
+######################################感谢原Kronos模型开源作者，原地址：https://github.com/shiyu-coder/Kronos
+
+我们基于原开源模型，做了一些优化，包含实时通过币安api数据获取对应的币种数据的不同时间周期的csv文件用于模型分析预测
+
+并集成了Flask 接口层
+
+用户webui和服务分离
+
+通过前端选择不同的币种，时间周期即可生成对应的方案及拿到对应的预测json数据
+
+
+并考虑到部分用户和部分服务器配置问题，牺牲了预测速度换取稳定性，由原有的gpu模式变更为现在的cpu模式。
+
+
+可支持并发请求。
+
+
+最大化的简化用户的操作
+
+后期将会根据预测数据因子，集成交易所api进行自动预测，自动交易，自动决策，自动回测胜率，完成整体的kronos量化交易。
+
+
+以下是目前的手动分析预测模式
+
+如图：
+<img width="1912" height="954" alt="image" src="https://github.com/user-attachments/assets/fa90abdb-831c-47ae-9b1f-47f924d28b67" />
+
+
+##################以下是操作步骤及教程说明###################
+
+
+
 <div align="center">
   <h2><b>Kronos: A Foundation Model for the Language of Financial Markets </b></h2>
 </div>
@@ -324,6 +357,7 @@ If you use Kronos in your research, we would appreciate a citation to our [paper
 
 ## 📜 License 
 This project is licensed under the [MIT License](./LICENSE).
+
 
 
 
