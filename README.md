@@ -1,0 +1,2 @@
+# KronosAiCrypto
+Kronos金融模型预测加密货币，BTC或ETH及其他山寨币的未来走势并结合交易api进行策略交易
